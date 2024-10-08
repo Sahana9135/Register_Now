@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.background{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.877)), url(Pheonixbeauty.jpeg);
+    background-size: cover;
+    height: 100vh;
+    
+}
+.login{
+    
+    border: 2px solid rgb(139, 126, 126);
+    width: 450px;
+    height: 400px;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+    background-color: rgb(112, 109, 109,0.2);
+    left: 430px;
+    top: 50px;
+}
+.mail h3{
+    color: aqua;
+    font-size: xx-large;
+}
+.mail input{
+    width: 280px;
+    height: 20px;
+    background-color:  rgb(112, 109, 109,0.1);
+    color: whitesmoke;
+    font-size: large;
+    border: 2px solid rgb(31, 30, 30);
+    border-radius: 50px;
+    padding: 15px;
+    margin: 5px;
+}
+.mail input::placeholder{
+    color: rgb(163, 158, 154);
+}
+.submit button{
+    width: 200px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-size: medium;
+}
+.remember label,input{
+    font-size: medium;
+    color: rgb(211, 217, 223);
+    padding-right: 40px;
+}
+
+@media screen and (max-width:1300px){
+    .background{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.877)), url(Pheonixbeauty.jpeg);
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+    }
+    .login{
+        border: 2px solid rgb(139, 126, 126);
+        width: 35vw;
+        height: 60vh;
+        padding: 30px;
+        position: relative;
+        text-align: center;
+        background-color: rgb(112, 109, 109,0.2);
+        left: 30vw;
+        top: 20vh;
+    }
+
+}
+@media screen and (max-width:1000px){
+    .background{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.877)), url(Pheonixbeauty.jpeg);
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+    }
+    .login{
+        border: 2px solid rgb(139, 126, 126);
+        width: 45vw;
+        height: 60vh;
+        padding: 30px;
+        position: relative;
+        text-align: center;
+        background-color: rgb(112, 109, 109,0.2);
+        left: 25vw;
+        top: 20vh;
+    }
+    .mail input{
+        width: 200px;
+        height: 15px;
+        background-color:  rgb(112, 109, 109,0.1);
+        color: whitesmoke;
+        font-size: medium;
+        border: 2px solid rgb(31, 30, 30);
+        border-radius: 50px;
+        padding: 10px;
+        margin: 3px;
+    }
+
+
+}
+
+@media screen and (max-width:640px){
+    .background{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.877)), url(Pheonixbeauty.jpeg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        width: 100vw;
+    }
+    .login{
+        border: 2px solid rgb(139, 126, 126);
+        width: 60vw;
+        height: 60vh;
+        padding: 30px;
+        position: relative;
+        text-align: center;
+        background-color: rgb(112, 109, 109,0.2);
+        left: 15vw;
+        top: 20vh;
+    }
+    .mail input{
+        width: 200px;
+        height: 15px;
+        background-color:  rgb(112, 109, 109,0.1);
+        color: whitesmoke;
+        font-size: medium;
+        border: 2px solid rgb(31, 30, 30);
+        border-radius: 50px;
+        padding: 10px;
+        margin: 3px;
+    }
+
+}
